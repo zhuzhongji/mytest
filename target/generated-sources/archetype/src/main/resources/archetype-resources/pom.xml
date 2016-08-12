@@ -1,18 +1,10 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.zhuzhongji</groupId>
-	<artifactId>ops-client</artifactId>
-=======
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.zhuzhongji.ops</groupId>
-	<artifactId>ops-archetype</artifactId>
->>>>>>> fd8bc22aec78ed9a2d9f0d2ae1074d19ff53a5fc
+	<groupId>${groupId}</groupId>
+	<artifactId>${artifactId}</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${version}</version>
 	<name>ops-archetype Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
@@ -46,15 +38,8 @@
 			<name>Repository for my</name>
 			<url>http://10.224.70.130:8081/nexus</url>
 			<releases>
-<<<<<<< HEAD
 			</releases>
 			<snapshots>
-=======
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
->>>>>>> fd8bc22aec78ed9a2d9f0d2ae1074d19ff53a5fc
 				<updatePolicy>always</updatePolicy>
 				<checksumPolicy>ignore</checksumPolicy>
 			</snapshots>

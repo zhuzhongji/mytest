@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
-	<name>ops-client</name>
-=======
-	<name>ops-archetype</name>
->>>>>>> fd8bc22aec78ed9a2d9f0d2ae1074d19ff53a5fc
+	<name>basic</name>
 	<comment></comment>
 	<projects>
 	</projects>
